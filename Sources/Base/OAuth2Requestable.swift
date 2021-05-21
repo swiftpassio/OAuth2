@@ -213,7 +213,7 @@ open class OAuth2Requestable {
 /**
 Helper function to ensure that the callback is executed on the main thread.
 */
-public func callOnMainThread(_ callback: (() -> Void)) {
+public func callOnMainThread(_ callback: @escaping (() -> Void)) {
 	if Thread.isMainThread {
 		callback()
 	}
