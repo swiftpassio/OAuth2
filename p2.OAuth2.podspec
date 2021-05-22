@@ -1,13 +1,13 @@
 #
-#  p2.OAuth2
+#  OAuth2
 #
 #  Versions reflect the Swift version they support.
 #  Enjoy!
 #
 
 Pod::Spec.new do |s|
-  s.name         = 'p2.OAuth2'
-  s.version      = '4.2.0'
+  s.name         = 'OAuth2'
+  s.version      = '4.2.1'
   s.summary      = 'OAuth2 framework for macOS, iOS and tvOS, written in Swift.'
   s.description  = <<-DESC
                    OAuth2 frameworks for macOS, iOS and tvOS written in Swift.
@@ -19,15 +19,15 @@ Pod::Spec.new do |s|
                    Start with `import p2_OAuth2` in your source files. Code documentation is available from within
                    Xcode (ALT + click on symbols) and on [p2.github.io/OAuth2/](http://p2.github.io/OAuth2/).
                    DESC
-  s.homepage     = 'https://github.com/p2/OAuth2'
-  s.documentation_url = 'http://p2.github.io/OAuth2/'
+  s.homepage     = 'https://github.com/swiftpassio/OAuth2'
+  s.documentation_url = 'https://github.com/swiftpassio/OAuth2'
   s.license      = 'Apache 2'
   s.author       = {
     'Pascal Pfiffner' => 'phase.of.matter@gmail.com'
   }
 
   s.source       = {
-    :git => 'https://github.com/p2/OAuth2.git',
+    :git => 'https://github.com/swiftpassio/OAuth2',
     :tag => s.version.to_s,
     :submodules => true
   }
