@@ -42,7 +42,7 @@ Pod::Spec.new do |s|
   }
 
   s.source_files = [
-    'SwiftKeychain/Keychain/*.swift',
+    'Sources/SwiftKeychain/Keychain/*.swift',
     'Sources/Base/*.swift',
     'Sources/Flows/*.swift',
     'Sources/DataLoader/*.swift'
