@@ -27,6 +27,8 @@ import Foundation
   import iOS
  #elseif os(tvOS)
   import tvOS
+ #elseif os(watchOS)
+  import watchOS
  #endif
 #endif
 
